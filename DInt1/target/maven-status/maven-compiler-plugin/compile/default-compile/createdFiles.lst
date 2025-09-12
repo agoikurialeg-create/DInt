@@ -1,0 +1,10 @@
+com\mycompany\dint1\HboxController.class
+com\mycompany\dint1\SecondaryController.class
+com\mycompany\dint1\AlertController.class
+com\mycompany\dint1\BatuketaController.class
+com\mycompany\dint1\GridpaneController.class
+com\mycompany\dint1\VboxController.class
+com\mycompany\dint1\App.class
+module-info.class
+com\mycompany\dint1\PrimaryController.class
+com\mycompany\dint1\JokuaController.class
