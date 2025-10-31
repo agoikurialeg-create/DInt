@@ -49,12 +49,12 @@ public class PrimaryController implements Initializable {
 
     @FXML
     private void switchToArik2(ActionEvent event) throws IOException{
-        App.setRoot("primary");
+        App.setRoot("arik2");
     }
 
     @FXML
     private void switchToArik3(ActionEvent event) throws IOException{
-        App.setRoot("primary");
+        App.setRoot("arik3");
     }
 
     @FXML

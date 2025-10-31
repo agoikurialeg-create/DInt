@@ -1,0 +1,101 @@
+/* ====== SUDOKUAREN TAULA NAGUSIA ====== */
+
+/* Gelaxka bakoitzaren ertzak: meheak, kolore leunak */
+.label {
+    -fx-border-color: #999999;      /* kolore gris mehea */
+    -fx-border-width: 0.5;          /* ertza mehea */
+    -fx-border-style: solid;
+    -fx-alignment: center;
+    -fx-font-size: 24px;            /* zenbaki handiagoak */
+    -fx-pref-width: 40px;
+    -fx-pref-height: 40px;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ==== Sudokuan emandako zenbakiak ==== */
+.emanda {
+    -fx-font-weight: bold; 
+    -fx-text-fill: #000000;       
+}
+
+/* ==== Erabiltzaileak betetako gelaxkak ==== */
+.erabiltzaileak {
+    -fx-font-weight: normal;
+    -fx-text-fill: #333333;
+}
+
+/* Hautatutako gelaxka: urdin argia */
+.hautatua {  
+    -fx-background-color: #cce5ff; 
+}
+
+/* Zuzena: berdea */
+.zuzena {  
+    -fx-background-color: #d4edda; 
+}
+
+/* Okerra: gorria */
+.okerra {  
+    -fx-background-color: #f8d7da; 
+}
+
+/* ===== 3×3 blokeen mugak ===== */
+.bloke {
+  -fx-border-color: black;
+  -fx-border-style: solid;
+}
+.muga-top    { -fx-border-top-width: 3; }
+.muga-left   { -fx-border-left-width: 3; }
+.muga-right  { -fx-border-right-width: 3; }
+.muga-bottom { -fx-border-bottom-width: 3; }
+
+/* ==== Botoien HBox orokorra ==== */
+.botonera {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+/* ==== Botoi orokorren estiloa ==== */
+.button {
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-background-radius: 6;
+    -fx-padding: 6 12 6 12;
+    -fx-border-radius: 6;
+    -fx-border-color: #ccc;
+    -fx-background-color: #f7f7f7;
+    -fx-text-fill: #333;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.05) , 3,0,0,1 );
+}
+
+/* ==== Zenbakien botoiak ==== */
+.btn-zenbaki {
+    -fx-background-color: #e8f0fe;
+    -fx-border-color: #90a4f3;
+    -fx-text-fill: #0d47a1;
+    -fx-font-weight: bold;
+}
+
+.btn-zenbaki:hover {
+    -fx-background-color: #d0e0ff;
+}
+
+/* ==== 'Aldatu sudokua' botoia ==== */
+.btn-aldatu {
+    -fx-background-color: #c3e6cb;
+    -fx-border-color: #155724;
+    -fx-text-fill: #155724;
+    -fx-font-weight: bold;
+}
+
+.btn-aldatu:hover {
+    -fx-background-color: #a9dfbf;
+}
+
+/* ==== Botoi desgaitua (gris) ==== */
+.button:disabled {
+    -fx-background-color: #dddddd;
+    -fx-text-fill: #888888;
+    -fx-border-color: #bbbbbb;
+    -fx-opacity: 1;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="myPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="516.0" styleClass="bg" stylesheets="@../../../../css/vistaPersona.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.dint3.css.Arik1Controller">
+   <children>
+      <Label layoutX="130.0" layoutY="47.0" prefHeight="45.0" prefWidth="256.0" styleClass="title" stylesheets="@../../../../css/vistaPersona.css" text="PERSON DETAILS" />
+      <Label layoutX="103.0" layoutY="107.0" styleClass="texto" stylesheets="@../../../../css/vistaPersona.css" text="FIRST NAME" />
+      <Label layoutX="104.0" layoutY="139.0" styleClass="texto" stylesheets="@../../../../css/vistaPersona.css" text="LAST NAME" />
+      <Label layoutX="101.0" layoutY="171.0" styleClass="texto" stylesheets="@../../../../css/vistaPersona.css" text="STREET" />
+      <Label layoutX="101.0" layoutY="203.0" styleClass="texto" stylesheets="@../../../../css/vistaPersona.css" text="CITY" />
+      <Label layoutX="97.0" layoutY="244.0" styleClass="texto" stylesheets="@../../../../css/vistaPersona.css" text="POSTAL CODE" />
+      <Label layoutX="99.0" layoutY="274.0" styleClass="texto" stylesheets="@../../../../css/vistaPersona.css" text="BIRTHDAY" />
+      <TextField layoutX="268.0" layoutY="103.0" />
+      <TextField layoutX="268.0" layoutY="137.0" />
+      <TextField layoutX="268.0" layoutY="169.0" />
+      <TextField layoutX="268.0" layoutY="201.0" />
+      <TextField layoutX="268.0" layoutY="240.0" />
+      <TextField layoutX="268.0" layoutY="270.0" />
+      <Button layoutX="102.0" layoutY="323.0" mnemonicParsing="false" stylesheets="@../../../../css/vistaPersona.css" text="NEW">
+         <styleClass>
+            <String fx:value="buttonNew" />
+            <String fx:value="button" />
+         </styleClass>
+      </Button>
+      <Button layoutX="248.0" layoutY="323.0" mnemonicParsing="false" stylesheets="@../../../../css/vistaPersona.css" text="EDIT">
+         <styleClass>
+            <String fx:value="buttonEdit" />
+            <String fx:value="button" />
+         </styleClass>
+      </Button>
+      <Button layoutX="377.0" layoutY="323.0" mnemonicParsing="false" styleClass="buttonDelete" stylesheets="@../../../../css/vistaPersona.css" text="DELETE" />
+   </children>
+</Pane>

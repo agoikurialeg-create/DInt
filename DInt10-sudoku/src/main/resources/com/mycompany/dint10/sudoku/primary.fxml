@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="619.0" stylesheets="@../../../../css/style.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.dint10.sudoku.PrimaryController">
+   <children>
+      <GridPane fx:id="gridBase" layoutX="113.0" layoutY="16.0" prefHeight="336.0" prefWidth="380.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane fx:id="bl1" onMouseClicked="#gelaxkaKlik" prefHeight="114.0" prefWidth="124.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-right" />
+                  <String fx:value="muga-bottom" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+            <GridPane fx:id="bl2" onMouseClicked="#gelaxkaKlik" prefHeight="304.0" prefWidth="384.0" GridPane.columnIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-bottom" />
+                  <String fx:value="muga-left" />
+                  <String fx:value="muga-right" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+            <GridPane fx:id="bl3" onMouseClicked="#gelaxkaKlik" prefHeight="304.0" prefWidth="384.0" GridPane.columnIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-left" />
+                  <String fx:value="muga-bottom" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+            <GridPane fx:id="bl4" onMouseClicked="#gelaxkaKlik" prefHeight="304.0" prefWidth="384.0" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-top" />
+                  <String fx:value="muga-bottom" />
+                  <String fx:value="muga-right" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+            <GridPane fx:id="bl5" onMouseClicked="#gelaxkaKlik" prefHeight="304.0" prefWidth="384.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-top" />
+                  <String fx:value="muga-bottom" />
+                  <String fx:value="muga-left" />
+                  <String fx:value="muga-right" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+            <GridPane fx:id="bl6" onMouseClicked="#gelaxkaKlik" prefHeight="304.0" prefWidth="384.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-top" />
+                  <String fx:value="muga-left" />
+                  <String fx:value="muga-bottom" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+            <GridPane fx:id="bl7" onMouseClicked="#gelaxkaKlik" prefHeight="304.0" prefWidth="384.0" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-top" />
+                  <String fx:value="muga-right" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+            <GridPane fx:id="bl8" onMouseClicked="#gelaxkaKlik" prefHeight="304.0" prefWidth="384.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-top" />
+                  <String fx:value="muga-left" />
+                  <String fx:value="muga-right" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+            <GridPane fx:id="bl9" onMouseClicked="#gelaxkaKlik" prefHeight="304.0" prefWidth="384.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <styleClass>
+                  <String fx:value="muga-top" />
+                  <String fx:value="muga-left" />
+                  <String fx:value="bloke" />
+               </styleClass>
+            </GridPane>
+         </children>
+      </GridPane>
+      <HBox alignment="CENTER" layoutX="15.0" layoutY="381.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="62.0" prefWidth="588.0" spacing="15.0" styleClass="botonera">
+         <children>
+            <Button fx:id="btnAldatu" mnemonicParsing="false" onAction="#aldatuSudokua" onMouseClicked="#aldatuSudokua" text="Aldatu sudokua">
+               <styleClass>
+                  <String fx:value="btn-aldatu" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn1" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="1">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn2" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="2">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn3" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="3">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn4" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="4">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn5" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="5">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn6" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="6">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn7" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="7" textAlignment="CENTER">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn8" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="8">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+            <Button fx:id="btn9" mnemonicParsing="false" onMouseClicked="#zenbakiKlik" text="9">
+               <styleClass>
+                  <String fx:value="btn-zenbaki" />
+                  <String fx:value="button" />
+               </styleClass></Button>
+         </children>
+      </HBox>
+   </children>
+</Pane>

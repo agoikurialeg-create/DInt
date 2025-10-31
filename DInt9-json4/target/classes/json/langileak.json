@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Izena": "Aitor Etxebarria",
+    "Enpresa": "EuskalTech"
+  },
+  {
+    "Id": 2,
+    "Izena": "Maialen Aguirre",
+    "Enpresa": "BilboSoft"
+  },
+  {
+    "Id": 3,
+    "Izena": "Iker Garmendia",
+    "Enpresa": "DonostiApps"
+  },
+  {
+    "Id": 4,
+    "Izena": "Nahia Aranburu",
+    "Enpresa": "HerriData"
+  },
+  {
+    "Id": 5,
+    "Izena": "Unai Zabaleta",
+    "Enpresa": "Vasconia Solutions"
+  },
+  {
+    "Id": 6,
+    "Izena": "Leire Iribarren",
+    "Enpresa": "Euskadi IT"
+  },
+  {
+    "Id": 7,
+    "Izena": "Asier Goikoetxea",
+    "Enpresa": "BasqueSoft"
+  },
+  {
+    "Id": 8,
+    "Izena": "Ane Otxoa",
+    "Enpresa": "Gipuzkoa Digital"
+  }
+]

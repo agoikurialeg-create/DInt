@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 sept 2025, 9:19:21
+    Author     : 2AM3-3
+*/
+
+.bg {
+    -fx-background-color: #ff69b4;
+}
+
+.title{
+    -fx-font-size: 30px;
+    -fx-font-family: Segoe UI Semibold;
+    -fx-font-weight: bold;
+}
+
+.texto{
+    -fx-font-size: 15px ;
+    -fx-font-family: Segoe UI Semibold;
+    -fx-font-weight: bold;
+}
+
+.buttonDelete{
+     -fx-background-color: red;
+}
+
+.buttonNew{-fx-background-color: #7fff00;}
+.buttonEdit{-fx-background-color:  #00bfff;}
+
+.button{
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-border-radius:3px ;
+    -fx-border-width: 1.5px;
+    -fx-padding: 10px;
+    -fx-font-size: 12px ;
+    -fx-font-family: Arial;
+    -fx-font-weight: bold;
+}

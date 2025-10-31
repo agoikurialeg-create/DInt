@@ -1,0 +1,5 @@
+modelo\Pertsona.class
+module-info.class
+com\mycompany\dint7\tablacrud\App.class
+com\mycompany\dint7\tablacrud\PrimaryController.class
+com\mycompany\dint7\tablacrud\SecondaryController.class
